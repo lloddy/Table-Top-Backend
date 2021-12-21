@@ -16,4 +16,4 @@ const campaignSchema = new Schema ({
     creator: String
 });
 
-module.exports = mongoose.model('Campaign', campaignSchema);
+module.exports = mongoose.model('Campaigns', campaignSchema);

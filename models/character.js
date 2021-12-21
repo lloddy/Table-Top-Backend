@@ -16,4 +16,4 @@ const characterSchema = new Schema ({
     playerName: String
 })
 
-module.exports = mongoose.model('Characters', campaignSchema)
+module.exports = mongoose.model('Characters', characterSchema)
